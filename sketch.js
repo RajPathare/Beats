@@ -2,7 +2,6 @@ var song;
 var button;
 var amp;
 
-
 var prevv = [];
 
 
@@ -20,10 +19,8 @@ function toggleSong(){
   
   }
   
-
 function preload(){
   song = loadSound('ShapeofYou.mp3');
-  
   
 }
 
@@ -110,9 +107,6 @@ function draw(){
     
   }
   
+  
 
-  
-  
-  //ellipse(100,100,width,vol*200);
-  
 }
