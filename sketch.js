@@ -39,7 +39,7 @@ function setup(){
 }
 
 function draw(){
-  background(r,g,b);
+  background(0);
   var vol=amp.getLevel();
     
   prevv.push(vol);
