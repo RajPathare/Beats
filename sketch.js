@@ -102,6 +102,17 @@ function draw(){
   }
   endShape();
   
+  fill(random(150));
+  beginShape();
+  for(var i = 0;i < 360; i++){
+    var r1 = map(prevv[i] , 0 , 1 ,100 , 1100);;
+    var x1 = r1 * cos(i);
+    var y1 = r1 * sin(i);
+
+    vertex(x1,y1);
+  }
+  endShape();
+  
   
   
   
