@@ -126,7 +126,7 @@ function draw(){
   var vol2 = amp.getLevel();
   var d = map(vol2,0,0.3,10,200);
   
-
+  noStroke();
   fill(random(150));
   
   ellipse(0,0,d/6,d/6);
