@@ -117,6 +117,6 @@ function draw(){
 
   fill(255,0,0);
   
-  ellipse(10,10,d/6,d/6);
+  ellipse(0,0,d/6,d/6);
   
 }
