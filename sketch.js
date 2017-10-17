@@ -102,7 +102,7 @@ function draw(){
   }
   endShape();
   
-  fill(random(150));
+  stroke(random(150));
   beginShape();
   for(var i = 0;i < 360; i++){
     var r1 = map(prevv[i] , 0 , 1 ,100 , 1100);;
