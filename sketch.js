@@ -1,6 +1,9 @@
 var song;
 var button;
 var amp;
+var ran1 = random(255);
+var ran2 = random(255);
+var ran3 = random(255);
 
 
 var prevv = [];
@@ -57,7 +60,7 @@ function draw(){
   }
   endShape();
   
-  stroke(255,0,0);
+  stroke(ran1,ran2,ran3);
   beginShape();
   for(var j = 0;j < 360; j++){
     var r2 = map(prevv[j] , 0 , 1 ,100 , 1000);;
