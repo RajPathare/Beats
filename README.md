@@ -1,10 +1,9 @@
 # Beats
-A Music-Visualizer created using javascript. (Platform - PC)
+A Music-Visualizer created using javascript. (Compatible with PC)
 
 ## Screenshots
 
-![screenshot_1](https://user-images.githubusercontent.com/31897425/31618575-f20b2d84-b2af-11e7-9a11-9b5f26ccf887.png)
+![11](https://user-images.githubusercontent.com/31897425/31650906-115c055a-b337-11e7-906f-eb5f1732c42b.png)
 
 
-![screenshot_2](https://user-images.githubusercontent.com/31897425/31618576-f23bb030-b2af-11e7-8462-cfd4a238fb51.png)
-
+![22](https://user-images.githubusercontent.com/31897425/31650908-11883ba2-b337-11e7-8508-3f8aa5153ddd.png)
