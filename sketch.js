@@ -115,8 +115,8 @@ function draw(){
   var d = map(vol2,0,0.3,10,200);
   
 
-  fill(255,0,255);
+  fill(255,0,0);
   
-  ellipse(100,100,d/5,d/5);
+  ellipse(10,10,d/6,d/6);
   
 }
