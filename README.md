@@ -1,5 +1,5 @@
 # Beats
-A Music-Visualizer created using javascript. (Platform - PC)
+A Music-Visualizer created using javascript. (Compatible with PC)
 ### Note - Please wait for a minute until the song gets uploaded. Thank You !
 
 ## Screenshots
