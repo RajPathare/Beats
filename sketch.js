@@ -102,6 +102,7 @@ function draw(){
   }
   endShape();
   
+  noFill();
   stroke(random(150));
   beginShape();
   for(var i = 0;i < 360; i++){
