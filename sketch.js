@@ -111,9 +111,12 @@ function draw(){
     
   }
   
+  var vol2 = amp.getLevel();
+  var d = map(vol2,0,0.3,10,200);
+  
 
+  fill(255,0,255);
   
-  
-  //ellipse(100,100,width,vol*200);
+  ellipse(100,100,d,d);
   
 }
