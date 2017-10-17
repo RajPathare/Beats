@@ -23,6 +23,7 @@ function toggleSong(){
   }
   
 function preload(){
+  
   song = loadSound('LeanOn.mp3');
   
 }
