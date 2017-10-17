@@ -1,9 +1,8 @@
 var song;
 var button;
 var amp;
-var r=random(255);
-var g=random(255);
-var b=random(255);
+
+
 
 var prevv = [];
 
@@ -22,9 +21,10 @@ function toggleSong(){
   
   }
   
+
 function preload(){
-  
   song = loadSound('LeanOn.mp3');
+  
   
 }
 
@@ -40,7 +40,7 @@ function setup(){
 }
 
 function draw(){
-  background(255,0,0);
+  background(0,200);
   var vol=amp.getLevel();
     
   prevv.push(vol);
@@ -102,6 +102,18 @@ function draw(){
   }
   endShape();
   
+  noFill();
+  stroke(255,255,255);
+  beginShape();
+  for(var i = 0;i < 360; i++){
+    var r1 = map(prevv[i] , 0 , 1 ,100 , 1100);;
+    var x1 = r1 * cos(i);
+    var y1 = r1 * sin(i);
+
+    vertex(x1,y1);
+  }
+  endShape();
+  
   
   
   
@@ -111,6 +123,12 @@ function draw(){
     
   }
   
+  var vol2 = amp.getLevel();
+  var d = map(vol2,0,0.3,10,200);
   
-
+  noStroke();
+  fill(random(150));
+  
+  ellipse(0,0,d/6,d/6);
+  
 }
