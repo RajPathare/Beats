@@ -1,9 +1,6 @@
 var song;
 var button;
 var amp;
-var r = random(255);
-var g = random(255);
-var b = random(255);
 
 
 var prevv = [];
