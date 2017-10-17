@@ -60,7 +60,7 @@ function draw(){
   }
   endShape();
   
-  stroke(r,g,b);
+  stroke(255,0,0);
   beginShape();
   for(var j = 0;j < 360; j++){
     var r2 = map(prevv[j] , 0 , 1 ,100 , 1000);;
