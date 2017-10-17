@@ -42,7 +42,7 @@ function setup(){
 }
 
 function draw(){
-  background(r , g , b);
+  background(0,250);
   var vol=amp.getLevel();
     
   prevv.push(vol);
@@ -60,7 +60,7 @@ function draw(){
   }
   endShape();
   
-  stroke(255,0,0);
+  stroke(r,g,b);
   beginShape();
   for(var j = 0;j < 360; j++){
     var r2 = map(prevv[j] , 0 , 1 ,100 , 1000);;
