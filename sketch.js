@@ -42,7 +42,7 @@ function setup(){
 }
 
 function draw(){
-  background(0,250);
+  background(0);
   var vol=amp.getLevel();
     
   prevv.push(vol);
