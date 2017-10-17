@@ -1,6 +1,9 @@
 var song;
 var button;
 var amp;
+var r=random(255);
+var g=random(255);
+var b=random(255);
 
 var prevv = [];
 
@@ -36,7 +39,7 @@ function setup(){
 }
 
 function draw(){
-  background(0,200);
+  background(r,g,b);
   var vol=amp.getLevel();
     
   prevv.push(vol);
