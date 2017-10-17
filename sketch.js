@@ -103,7 +103,7 @@ function draw(){
   endShape();
   
   noFill();
-  stroke(random(255));
+  stroke(255,255,255);
   beginShape();
   for(var i = 0;i < 360; i++){
     var r1 = map(prevv[i] , 0 , 1 ,100 , 1100);;
@@ -127,7 +127,7 @@ function draw(){
   var d = map(vol2,0,0.3,10,200);
   
   noStroke();
-  fill(255,255,255);
+  fill(random(150));
   
   ellipse(0,0,d/6,d/6);
   
