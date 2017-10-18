@@ -62,7 +62,7 @@ function draw(){
   translate(width / 2,height / 2);
   beginShape();
   for(var i = 0;i < 360; i++){
-    var r1 = map(prevv[i] , 0 , 1 ,width/2 , 500);;
+    var r1 = map(prevv[i] , 0 , 1 ,width/2 , height/2);;
     var x1 = r1 * cos(i);
     var y1 = r1 * sin(i);
 
