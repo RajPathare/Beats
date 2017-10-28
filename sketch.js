@@ -3,8 +3,6 @@ var button;
 var amp;
 
 
-
-
 var prevv = [];
 
 
