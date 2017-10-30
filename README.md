@@ -4,7 +4,7 @@ A Music-Visualizer created using javascript. (Compatible with PC)
 
 
 ### *Update* - *Works pretty fine on medium-sized smartphones . Enjoy the beats !*
-
+ 
 ### Note - Please wait for a minute until the song gets uploaded. Thank You !
 
 
