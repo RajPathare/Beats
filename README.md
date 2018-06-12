@@ -1,6 +1,6 @@
 # Beats
 
-A Music-Visualizer created using javascript. (Compatible with PC) 
+A Music-Visualizer created using javascript. (Compatible with PC)
 
 
 ### *Update* - *Works pretty fine on medium-sized smartphones . Enjoy the beats !* 
